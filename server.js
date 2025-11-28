@@ -19,7 +19,7 @@ app.set("trust proxy", true); // real IP behind proxy
 // Routes
 // -----------------------------
 app.use("/api/user", userRoutes);
-app.use("/api/visit", visitorRoutes);      // Visitor logging + stats
+app.use("/api/visitor", visitorRoutes);      // Visitor logging + stats
 app.use("/api/subscribers", subscriberRoutes);
 
 // Test route
